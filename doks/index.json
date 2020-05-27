@@ -23,6 +23,6 @@
     "uieditorpath": "/root/example"
   },
   "backend": {
-    "imageid": "ubuntu1904"
+    "imageid": "bash"
   }
 }
