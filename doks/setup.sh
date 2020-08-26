@@ -3,6 +3,8 @@ sudo mv ~/doctl /usr/local/bin
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin/kubectl
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
 mkdir -p example; cd example/
 echo "ALL DONE! CONTINUE..."
 clear
